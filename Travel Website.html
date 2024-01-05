@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="./Travel Website_files/styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black; /* Change background color to black */
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5em;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        main {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap; /* Allow items to wrap to the next line */
+            justify-content: space-around; /* Distribute items evenly with space around them */
+        }
+        .destination-card {
+            flex: 0 0 calc(30% - 40px); /* Adjust the width as needed; 30% minus margin and padding */
+            border: 1px solid #ddd;
+            margin: 20px;
+            padding: 20px;
+            background-color: white; /* Background color for destination cards */
+        }
+        .destination-card img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <include src="header.html"></include>
+    <header>
+        <h1>T  T  T  T</h1>
+        <h2>Trio Traveling Tour Trip</h2>
+    </header>
+    <nav>
+        <a href="http://127.0.0.1:5500/">Home</a>
+        <a href="http://127.0.0.1:5500/about.html">About Us</a>
+        <a href="http://127.0.0.1:5500/contact.html">Contact</a>
+        <a href="http://127.0.0.1:5500/login.html">Login</a>
+        <a href="http://127.0.0.1:5500/signup.html">Signup</a>
+    </nav>
+
+    <video width="100%" height="auto" autoplay="" loop="" muted="">
+        <source src="vedio.mp4" type="video/mp4">
+    </video>
+
+    <main>
+
+        <!-- Destination Card 1 -->
+        <div class="destination-card">
+            <h2>Paris, France</h2>
+            <img src="./Travel Website_files/paris.jpg" alt="Paris Image">
+            <p>Description: Explore the beauty of the City of Light, visit the Eiffel Tower and enjoy French cuisine.</p>
+            <a href="http://127.0.0.1:5500/payment.html"><button onclick="bookTrip(&#39;Paris&#39;)">Book Now</button></a>
+        </div>
+
+        <!-- Destination Card 2 -->
+        <div class="destination-card">
+            <h2>Tokyo, Japan</h2>
+            <img src="./Travel Website_files/tokyo.png" alt="Tokyo Image">
+            <p>Description: Experience the vibrant culture of Tokyo, visit historic temples, and enjoy sushi.</p>
+            <a href="http://127.0.0.1:5500/payment.html"><button onclick="bookTrip(&#39;Tokyo&#39;)">Book Now</button></a>
+        </div>
+
+        <!-- Destination Card 3 -->
+        <div class="destination-card">
+            <h2>New York, USA</h2>
+            <img src="./Travel Website_files/newyork.jpg" alt="New York Image">
+            <p>Description: Discover the city that never sleeps, visit Times Square and explore Central Park.</p>
+            <a href="http://127.0.0.1:5500/payment.html"><button onclick="bookTrip(&#39;New York&#39;)">Book Now</button></a>
+        </div>
+
+        <!-- Destination Card 4 -->
+        <div class="destination-card">
+            <h2>Rome, Italy</h2>
+            <img src="./Travel Website_files/rome.jpg" alt="Rome Image">
+            <p>Description: Immerse yourself in the rich history of Rome, visit the Colosseum and enjoy Italian cuisine.</p>
+            <a href="http://127.0.0.1:5500/payment.html"><button onclick="bookTrip(&#39;Rome&#39;)">Book Now</button></a>
+        </div>
+
+        <!-- Add more destination cards as needed -->
+        <div class="destination-card">
+            <h2>Bali,Indonesia</h2>
+            <img src="./Travel Website_files/bali.jpg" alt="BAli Image">
+            <p>Description: Bali is the most popular island vacation destination in the Indonesian archipelago.</p>
+            <a href="http://127.0.0.1:5500/payment.html"><button onclick="bookTrip(&#39;bali&#39;)">Book Now</button></a>
+        </div>
+
+        <div class="destination-card">
+            <h2>Dubai</h2>
+            <img src="./Travel Website_files/dubai.jpg" alt="Dubai Image">
+            <p>Description: Dubai is located on the eastern coast of the Arabian Peninsula in the southwest corner of the Arabian Gulf.</p>
+            <a href="http://127.0.0.1:5500/payment.html"><button onclick="bookTrip(&#39;Dubai&#39;)">Book Now</button></a>
+        </div>
+
+        <div class="destination-card">
+            <h2>Mù cang chải vietnam</h2>
+            <img src="./Travel Website_files/vietnam.jpg" alt="Vietnam Image">
+            <p>Description: Mù Cang Chải is a landlocked district that borders Van Ban district of Lao Cai province to the north, Muong La district of Son La province to the south,
+                 Than Uyen of Lai Chau province to the west, and Van Chan district of Yen Bai province to the east.</p>
+            <a href="http://127.0.0.1:5500/payment.html"><button onclick="bookTrip(&#39;Vietnam&#39;)">Book Now</button></a>
+        </div>
+
+        <div class="destination-card">
+            <h2>Bagan, Myanmar</h2>
+            <img src="./Travel Website_files/bagan.jpg" alt="Bagan Image">
+            <p>Description: Bagan was the capital city of the Pagan Kingdom, the first Burmese kingdom, from 1044 until 1297. </p>
+            <a href="http://127.0.0.1:5500/payment.html"><button onclick="bookTrip(&#39;Bagan&#39;)">Book Now</button></a>
+        </div>
+
+        <div class="destination-card">
+            <h2>Maldives</h2>
+            <img src="./Travel Website_files/mall.jpg" alt="maldives Image">
+            <p>Description: The Maldives is a republic lies south-west of the Indian sub-continent.</p>
+            <a href="http://127.0.0.1:5500/payment.html"><button onclick="bookTrip(&#39;Maldives&#39;)">Book Now</button></a>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <p>Follow us on</p>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./Travel Website_files/insta.jpg" alt="Instagram"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="./Travel Website_files/twit.jpg" alt="Twitter"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="./Travel Website_files/you.png" alt="YouTube"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./Travel Website_files/face.png" alt="Facebook"></a>
+        </div>
+    </footer>
+
+    <script>
+        function bookTrip(destination) {
+            // Redirect to the payment page with the selected destination
+            window.location.href = `/payment?destination=${destination}`;
+        }
+    </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
